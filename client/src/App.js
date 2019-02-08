@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import User from "./pages/User";
 import Form from "./pages/Form";
-import App1 from "./components/chat/Chat-App/index";
 import Compare from './pages/compare.js';
 
 
@@ -48,7 +47,6 @@ function App() {
           <Route exact path="/login" component={Login} />
           <Route exact path="/form" component={Form} />
           <Route exact path="/compare" component={Compare} />
-          <Route exact path="/chat" component={App1} />
 
 
         </Switch>
